@@ -15,7 +15,7 @@
 		<!-- <link rel="stylesheet" type="text/css"  href="assets/css/bootstrap.css"> -->
 		<!-- <link rel="stylesheet" type="text/css" href="assets/css/prettyPhoto.css"> -->
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" data-spy="scroll">
 
 		<!-- Header -->
 			<header id="header">
@@ -24,7 +24,6 @@
 				<nav>
 					<a href="#menu"></a>
 				</nav>
-
 			</header>
 			
 
@@ -32,11 +31,13 @@
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<!-- <li><a href="elements.html">Elements</a></li> -->
-					<!-- <li><a href="generic.html">Generic</a></li> -->
-					<li><a href="CV.pdf">Resume</a></li>
-					<li><a href="#footer">Contact</a></li>
+					<li><a href="#top">Home</a></li>
+					<li><a href="CV.pdf" target="_blank">Resume</a></li>
+					<li><a href="#experience">Experiences</a></li>
+					<li><a href="#edu">Education</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#contact">Contact</a></li>
 					<li><a href="http://roboticsclub.iitd.ac.in/" rel="noopener noreferrer" target="_blank"><i class="fa fa-cog fa-spin fa-fw" aria-hidden="true"></i>
 Robotics Club</a></li>
 					<li><a href="bug.html"><i class="fa fa-bug fa-fw"></i>Report a Bug</a></li>
@@ -44,6 +45,7 @@ Robotics Club</a></li>
 			</nav>
 
 		<!-- Banner -->
+		<div id="top">
 			<section id="banner">
 				<div class="inner">
 					<h1>Hi there! I'm<br> <b>Saksham Dhull</b></h1>
@@ -51,7 +53,7 @@ Robotics Club</a></li>
 				</div>
 				<video autoplay loop muted playsinline src="images/vid-bg.mp4"></video>
 			</section>
-
+		</div>
 		
 
 			<!-- Header -->
@@ -59,19 +61,18 @@ Robotics Club</a></li>
 				<div class="inner">
 					<div class="content">
 						<header>
-							<center><h2>My bio</h2> </center>
+							<center><h2 id="about">My bio</h2> </center>
 						</header>
 						
 							<center>
 								<div class="image">
 									<div class="parent" onclick="">
-        <div class="child">
-        	<img src="images/about1.jpg"  alt="Saksham Dhull"  height="250" width="250">
-        </div>
-    </div>
-									<!-- <img src="images/about.jpg"  alt="Saksham Dhull"  height="250" width="250">  -->
+        								<div class="child">
+        									<img src="images/about1.jpg"  alt="Saksham Dhull"  height="250" width="250">
+		        						</div>
+    								</div>
 								</div>
-								<p>I'm a <b>Sophomore</b> in <b>Computer Science</b> at <b>IIT Delhi</b>. <b>Robotics, Computer Vision,<br> Game Development</b> and<b> sports coding</b> in<b> C++/C</b> pretty much sums up my interests. PS: I'm a cat person. </p>
+								<p>I'm a <b>Sophomore</b> in <b>Computer Science</b> at <b>IIT Delhi</b>. <b>Robotics, Computer Vision, Linux development<br> Game Development</b> and<b> sports programming</b> in<b> C/C++</b> pretty much sums up my interests. </p>
 							</center>
 						
 						<div class="col-12 col-12-medium">
@@ -81,19 +82,19 @@ Robotics Club</a></li>
 				</div>
 			</section>
 			<!-- CTA -->
-		<section id="cta" class="wrapper">
+		<section id="cta" class="wrapper" id="experience">
 				<div class="inner">
 					<div class="content">
-					<h2>EXPERIENCES</h2>
+					<h2 >EXPERIENCES</h2>
 					<h6>Background and expertise</h6>
 				</div>
 			</div>
 			</section>
 		<!-- Highlights -->
-			<section class="wrapper">
+			<section class="wrapper" id="edu">
 				<div class="inner">
 					<header class="special">
-						<h2 >EDUCATION</h2>
+						<h2  >EDUCATION</h2>
 						<h6>What I've learned</h6>
 						<!-- <p>I'm a Sophomore Computer Science student at IIT Delhi. Robotics, Computer Vision, Game Development and sports coding in C++/C pretty much sums up my interests.</p> -->
 					</header>
@@ -176,10 +177,11 @@ Hansraj Model School, New delhi</h3>
 			</section>
 
 		<!-- CTA -->
-			<section id="cta" class="wrapper">
-				<div class="inner">
+		<div id="projects">
+			<section id="cta" class="wrapper" >
+				<div class="inner" id="projects">
 					<div class="content">
-					<h2>Projects</h2>
+					<h2 >Projects</h2>
 					<h6>work i've done</h6>
 					<pre><code><img class="image" src="images/pic01.jpg" align="right" height="300px" width="300px" /><p align="left">
 <strong>ROS-BASED DIFFERENTIAL DRIVE</strong>
@@ -204,26 +206,72 @@ This is the second project.
 						</section></div>-->
 				</div>
 			</div>
-			</section> 
+			</section>
+			</div> 
 			<!-- Header -->
-			<section id="main" class="wrapper">
+			<section id="skills" class="wrapper">
 				<div class="inner">
 					<div class="content">
 						<header>
 							<center>
-								<h2>Skills</h2>
-								<h6>what i do</h6>	
+								<h2 >Skills</h2>
+								<h6>my abilities</h6>	
 							</center>
-							<!-- <div class="highlights">
+							<div class="highlights">
 						<section>
 							<div class="content">
 								<header>
-									<a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
-									<h3>Feugiat consequat</h3>
+									<i class="fa fa-code fa-fw fa-3x" style="color:#ce1b28"></i>
+									<h3>Programming Languages</h3>
 								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
+								<!-- <p align="left"> -->
+									<ul class=" alt">
+									<li>C</li>
+									<li>C++</li>
+									<li>C#</li>
+									<li>PYTHON</li>
+									<li>JAVA</li>
+									<li>BASH</li>
+									<li>HTML</li>
+									<li>CSS</li>
+								</ul>
+								<!-- </p> -->
 							</div>
-						</section></div> -->
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<i class="fa fa-terminal fa-fw fa-3x" aria-hidden="true" style="color:#ce1b28"></i>
+									<h3>Software & frameworks</h3>
+								</header>
+									<ul class=" alt">
+									<li>Unity 3D</li>
+									<li>KVM</li>
+									<li>ROS</li>
+									<li>Android Studio</li>
+									<li>Autodesk Inventor</li>
+									<li>SolidWorks</li>
+									<li>DEScribe</li>
+									<li>Git</li>
+								</ul>
+							</div>
+						</section>
+						<section>
+							<div class="content">
+								<header>
+									<i class="fa fa-wrench fa-fw fa-3x" aria-hidden="true" style="color:#ce1b28"></i>
+									<h3>Tools & Utilities</h3>
+								</header>
+								<ul class="alt">
+									<li>Arduino</li>
+									<li>Kangaroo</li>
+									<li>Sabertooth</li>
+									<li>Jetson</li>
+									<!-- <li></li> -->
+								</ul>
+							</div>
+						</section>
+					</div>
 						</header>
 						
 
@@ -237,8 +285,6 @@ This is the second project.
 				<div class="inner">
 					<center><i class="fa fa-star-o fa-2x slow-spin" aria-hidden="true"></i><blockquote style="font-family: 'Parisienne', cursive;"><font size="7">Winners don't do different things, They do things differently.</font></blockquote></center>
 					<h4 align="right">- Shiv khera</h4>
-
-					
 					 </div>
 				</div>
 			</section>
@@ -293,11 +339,12 @@ This is the second project.
 				</div>
 			</section> -->
 			<!-- Form -->
+			<div id="contact">
 			<section id="main" class="wrapper">
 				<div class="inner">
 					<div class="content">
 									<!-- Form -->
-									<center><h2><strong> GET IN TOUCH </strong></h2></center><br>
+									<center><h2 ><strong> GET IN TOUCH </strong></h2></center><br>
 									<form action="https://formcarry.com/s/BkYhgV9f7" method="POST" accept-charset="UTF-8">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall">
@@ -438,6 +485,7 @@ function copyToClipboard(elem) {
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/scroll.js"></script>
 			<!-- <script src="assets/js/copyToClipboard.js"></script> -->
 
 	</body>
