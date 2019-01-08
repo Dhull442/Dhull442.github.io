@@ -36,15 +36,15 @@
 						
 		<!-- Nav -->
 			<nav id="menu">
-				<ul class="links">
-					<li><a href="#top">Home</a></li>
-					<li><a href="Saksham_Dhull_Resume.pdf" target="_blank">Resume</a></li>
+				<ul class="links" font-family="monospace">
+					<li><a href="#top" >cd ~/</a></li>
+					<li><a href="Saksham_Dhull_Resume.pdf" target="_blank">open resume.pdf</a></li>
 					<!-- <li><a href="#experience">Experiences</a></li> -->
-					<li><a href="#edu">Education</a></li>
-					<!-- <li><a href="#projects">Projects</a></li> -->
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="bug.html"><i class="fa fa-bug fa-fw"></i>Report a Bug</a></li>
+					<li><a href="#edu">cd ~/education</a></li>
+					<li><a href="#projects">cd ~/projects</a></li>
+					<li><a href="#skills">cd ~/skills</a></li>
+					<li><a href="#contact">cd ~/contact</a></li>
+					<li><a href="bug.html"><i class="fa fa-bug fa-fw"></i> report a bug</a></li>
 				</ul>
 			</nav>
 		<!-- Banner -->
@@ -101,7 +101,6 @@
 					<header class="special">
 						<h2>EDUCATION</h2>
 						<h6>What I've learned</h6>
-						<!-- <p>I'm a Sophomore Computer Science student at IIT Delhi. Robotics, Computer Vision, Game Development and sports coding in C++/C pretty much sums up my interests.</p> -->
 					</header>
 					<ul class="alt">
 						<li>
@@ -122,97 +121,74 @@ Hansraj Model School, New delhi</h3>
 							<h4>2014 - 2015 | Cgpa - <strong>10.0</strong>/10.0</h4>
 							<p align="right" >Completed Secondary School from CBSE Board.</p>
 						</li>
-					<!-- <div class="highlights">
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
-									<h3>Feugiat consequat</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-files-o"><span class="label">Icon</span></a>
-									<h3>Ante sem integer</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-floppy-o"><span class="label">Icon</span></a>
-									<h3>Ipsum consequat</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-line-chart"><span class="label">Icon</span></a>
-									<h3>Interdum gravida</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-paper-plane-o"><span class="label">Icon</span></a>
-									<h3>Faucibus consequat</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-qrcode"><span class="label">Icon</span></a>
-									<h3>Accumsan viverra</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section>
-					</div> -->
 				</div>
 			</section>
 
 		<!-- CTA -->
-		<!-- <div id="projects">
+		<div id="projects">
 			<section id="cta" class="wrapper" >
 				<div class="inner" id="projects">
 					<div class="content">
-					<h2 >Projects</h2>
-					<h6>work i've done</h6>
-					<pre><code><img class="image" src="images/pic01.jpg" align="right" height="300px" width="300px" /><p align="left">
-<strong>ROS-BASED DIFFERENTIAL DRIVE</strong>
-MAY 2018 - JULY 2018
-
-
-	</p></code></pre> -->
-	<!-- <pre>
-		<code><img class="image" src="images/pic01.jpg" align="left" /><p align="right">
-This is the second project.
-		</p></code>
-	</pre> -->
-	<!-- <div class="highlights">
-						<section>
-							<div class="content">
-								<header>
-									<a href="#" class="icon fa-vcard-o"><span class="label">Icon</span></a>
-									<h3>Feugiat consequat</h3>
-								</header>
-								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-							</div>
-						</section></div>-->
+						<h2 >Projects</h2>
+						<h6>work i've done</h6>
+					</div>
 				</div>
-			</div>
+				<div class="window">
+  					<div class="terminal" align="left">
+    					<p class="command"><buser>guest@site</buser><b>:</b><bdir>~/projects</bdir>$ cat light_controlled_object_detection.md</p>
+    					<p>
+      						<span>
+     					    # <b> Light Controlled Object Detection ( December, 2018 - present )</b>: <br />
+							* Creating a dataset for object detection by varying both pose and illumination in visible as well as infrared spectrum <br />
+							* Collecting the data of objects belonging to the coco dataset using Intel RealSense R200 camera as well as by rendering the objects in Blender <br />
+							* This dataset is used to characterize object detection by fine-tuning the standard object detection networks for robust object detection integrating dark conditions as well
+    					 	</span>
+   						</p>
+					</div>
+				</div><br />
+				<div class="window">
+					<div class="terminal" align="left">
+					    <p class="command"><buser>guest@site</buser><b>:</b><bdir>~/projects</bdir>$ cat cloud_computing_on_iitd_lan.md</p>
+					    <p>
+					    	<span>
+					    		# <b> Cloud Computing On LAN ( May, 2018 - October, 2018 ) </b>: <br />
+					    		* Awarded this DISA (Design Internship Summer Award) project by the HRD Ministry. <br />
+					    		* Used the QEMU-KVM hypervisor to host and preseeded the Ubuntu ISO file to create and libvirt toolkit to manage the virtual machines.<br />
+								* Scripted a command line interface including TCP sockets for communication in Python.<br />
+								* This project aims to eventually leverage idle computers in the university by hosting powerful on-demand virtual machines for remote users as requested.<br />
+					    	</span>
+					    </p>
+					</div>
+				</div><br />
+				<div class="window">
+					<div class="terminal" align="left">
+					    <p class="command"><buser>guest@site</buser><b>:</b><bdir>~/projects</bdir>$ cat ros_based_differential_drive.md</p>
+					    <p>
+					    	<span>
+					    		# <b> ROS based Differential Drive ( May, 2018 - July, 2018 ) </b>: <br />
+					    		* Designed a PS3 cum ROS based differential drive using Arduino <br />
+					    		* Built a gazebo model for the visualization of the robot’s motion.<br />
+								* Used OpenCV classifiers along with machine learning techniques to detect and recognize faces and track them by detecting the upper body.<br />
+								* Implemented it on Nvidia Jetson Board for integration with a stereo camera.<br /><br />
+
+								[git repo]<a href="https://github.com/Dhull442/ROS-based-Differential-Drive" target="_blank">(https://github.com/Dhull442/ROS-based-Differential-Drive)</a>
+					    	</span>
+					    </p>
+					</div>
+				</div><br />
+				<div class="window">
+					<div class="terminal" align="left">
+					    <p class="command"><buser>guest@site</buser><b>:</b><bdir>~/projects</bdir>$ cat other_projects.md</p>
+					    <p>
+					    	<span>
+					    		details can be found [here]<a href="https://gist.github.com/Dhull442/de059d0c21b7276ab7828ea00c42c12a#file-other_projects-md" target="_blank">(https://gist.github.com/Dhull442/other_projects-md)</a>
+					    	</span>
+					    </p>
+					</div>
+				</div><br />
+
 			</section>
-			</div> 
+		</div>
 			<!-- Header -->
 			<section id="skills" class="wrapper">
 				<div class="inner">
@@ -298,90 +274,6 @@ style="border:0px;" alt="Web-Stat traffic analysis"></a></noscript>
 					 </div>
 				</div>
 			</section>
-		<!-- Testimonials -->
-			<!-- <section class="wrapper">
-				<div class="inner">
-					<header class="special">
-						<h2>Faucibus consequat lorem</h2>
-						<p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
-					</header>
-					<div class="testimonials">
-						<section>
-							<div class="content">
-								<blockquote>
-									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-								</blockquote>
-								<div class="author">
-									<div class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Jane Doe</strong> <span>CEO - ABC Inc.</span></p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<blockquote>
-									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-								</blockquote>
-								<div class="author">
-									<div class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>John Doe</strong> <span>CEO - ABC Inc.</span></p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<blockquote>
-									<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
-								</blockquote>
-								<div class="author">
-									<div class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</div>
-									<p class="credit">- <strong>Janet Smith</strong> <span>CEO - ABC Inc.</span></p>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>
-			</section> -->
-			<!-- Form -->
-			<!-- <div id="contact">
-			<section id="main" class="wrapper">
-				<div class="inner">
-					<div class="content"> -->
-									<!-- Form -->
-									<!-- <center><h2 ><strong> GET IN TOUCH </strong></h2></center><br>
-									<form action="https://formcarry.com/s/BkYhgV9f7" method="POST" accept-charset="UTF-8">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall">
-												<input type="text" name="name" id="name" value="" placeholder="Name*" />
-											</div>
-											<div class="col-6 col-12-xsmall">
-												<input type="email" name="email" id="email" value="" placeholder="Email*" />
-											</div>
-												<input type="hidden" name="_gotcha">
-											<div class="col-12">
-												<textarea name="textarea" id="textarea" placeholder="Message" rows="6"></textarea>
-											</div> -->
-											<!-- Break -->
-											<!-- <div class="col-12" align="center">
-												<ul class="actions">
-													<li><input type="submit" value="Submit Form" class="primary" /></li>
-													<li><input type="reset" value="Reset" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-						</section> -->
-<!-- Begin Web-Stat code v 6.3 -->
-
-<!-- End Web-Stat code v 6.3 -->
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
