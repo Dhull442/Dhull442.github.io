@@ -2279,7 +2279,7 @@ ul.icons {
   background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 1), rgba(206, 27, 40, 0)), url(../../images/ig_blur.jpg);
+  background-image: linear-gradient(rgba(206, 27, 40, 0.9), rgba(206, 27, 40, 0)), url(../../images/ig_blur.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
