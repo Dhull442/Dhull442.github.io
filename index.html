@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html style="scroll-behavior: smooth">
 	<head>
 		<title>Saksham Dhull | Junior Undergraduate, IIT Delhi</title>
 		<meta charset="utf-8" />
@@ -13,14 +13,6 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
 		<style type="text/css"> .frame { height: 200px; width: 200px; overflow: hidden; } .zoomin img { height: 200px; width: 200px; -webkit-transition: all 2s ease; -moz-transition: all 2s ease; -ms-transition: all 2s ease; transition: all 2s ease; } .zoomin img:hover { width: 300px; height: 300px; }
 		</style>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126617397-1"></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'UA-126617397-1');
-</script>
 	</head>
 	<body class="is-preload" data-spy="scroll">
 
@@ -280,7 +272,7 @@ document.getElementById('wts1798973').appendChild(wts);
 			</section>
 		<!-- Footer -->
 			<footer id="footer">
-				<div class="inner">
+				<div class="inner" id="contact">
 					<div class="content">
 
 
@@ -290,7 +282,7 @@ document.getElementById('wts1798973').appendChild(wts);
 								<center>
 	      							<div class="col-md-6">
       								<a href="https://www.google.com/maps/place/Satpura+Hostel,+IIT+Delhi/@28.5469082,77.1863375,17z/data=!4m5!3m4!1s0x390d1df39abea077:0xbe0cd3a67bc73ae6!8m2!3d28.5481311!4d77.1878701">
-      									<i class="fa fa-map-marker fa-2x"></i>
+      									<i class="fa fa-map-marker "></i>
         								<p>Satpura Hostel<br> IIT Delhi, Delhi-110016</p>
         							</a></div>
       							<!-- </div> -->
@@ -300,70 +292,32 @@ document.getElementById('wts1798973').appendChild(wts);
 						<section>
 							<center> -->
 							 <a href="mailto:cs1170370@iitd.ac.in">
-							 	<div class="col-md-6"> <i class="fa fa-envelope fa-2x"></i>
-        							<p>cs1170370@iitd.ac.in</p>
-      							</div>
-      						</a>
+							 	<div class="col-md-6"><i class="fa fa-envelope"></i><p>cs1170370@iitd.ac.in</p></div></a>
 
 
-      							<div class="col-md-6" title="Copy to Clipboard"><a><i class="fa fa-address-book-o fa-2x" id="copyButton" ></i>
-        							<p type="text" id="copyTarget" value="Text to Copy">+919718227010</p></a>
+      							<div class="col-md-6" title="Copy to Clipboard"><i class="fa fa-address-book-o"></i>
+        							<p type="text" id="copyTarget" value="Text to Copy">+91 97182 27010</p>
 
-        							<script >
-        								document.getElementById("copyButton").addEventListener("click", function() {
-    copyToClipboard(document.getElementById("copyTarget"));
-});
-
-function copyToClipboard(elem) {
-	  alert("Copied to Clipboard");
-	  // create hidden text element, if it doesn't already exist
-    var targetId = "_hiddenCopyText_";
-    var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
-    var origSelectionStart, origSelectionEnd;
-    if (isInput) {
-        // can just use the original source element for the selection and copy
-        target = elem;
-        origSelectionStart = elem.selectionStart;
-        origSelectionEnd = elem.selectionEnd;
-    } else {
-        // must use a temporary form element for the selection and copy
-        target = document.getElementById(targetId);
-        if (!target) {
-            var target = document.createElement("textarea");
-            target.style.position = "absolute";
-            target.style.left = "-9999px";
-            target.style.top = "0";
-            target.id = targetId;
-            document.body.appendChild(target);
-        }
-        target.textContent = elem.textContent;
-    }
-    // select the content
-    var currentFocus = document.activeElement;
-    target.focus();
-    target.setSelectionRange(0, target.value.length);
-
-    // copy the selection
-    var succeed;
-    try {
-    	  succeed = document.execCommand("copy");
-    } catch(e) {
-        succeed = false;
-    }
-    // restore original focus
-    if (currentFocus && typeof currentFocus.focus === "function") {
-        currentFocus.focus();
-    }
-
-    if (isInput) {
-        // restore prior selection
-        elem.setSelectionRange(origSelectionStart, origSelectionEnd);
-    } else {
-        // clear temporary content
-        target.textContent = "";
-    }
-    return succeed;
-}
+        							<script>
+        								function copytoclip() {
+													// var textArea = document.createElement("textarea");
+													var textArea = document.getElementById('copyTarget');
+  // textArea.value = "+919718227010";
+  // document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+	try {
+	    var successful = document.execCommand('copy');
+			if(successful){
+				alert('Copied to clipboard');
+			}
+	  } catch (err) {
+	    console.error('Fallback: Oops, unable to copy', err);
+			alert(err);
+	  }
+		alert('fuct');
+	  // document.body.removeChild(textArea);
+};
         							</script>
       							</div>
       					</center>
@@ -373,10 +327,10 @@ function copyToClipboard(elem) {
 							<center><h3>Connect</h3>
 							<ul class="alt">
 
-								<li><a href="https://github.com/Dhull442"><i class="fa fa-github fa-fw fa-2x ">&nbsp;</i>Github</a></li>
-								<li><a href="https://www.linkedin.com/in/saksham-dhull-85b608155/"><i class="fa fa-linkedin-square fa-2x fa-fw" aria-hidden="true">&nbsp;</i>LinkedIn</a></li>
-								<li><a href="https://www.facebook.com/dhull442"><i class="fa fa-facebook-square fa-fw  fa-2x" aria-hidden="true">&nbsp;</i>Facebook</a></li>
-								<li><a href="https://www.instagram.com/dhull442/"><i class="fa fa-instagram fa-fw fa-2x">&nbsp;</i>Instagram</a></li>
+								<li><a href="https://github.com/Dhull442"><i class="fa fa-github fa-fw">&nbsp;</i>Github</a></li>
+								<li><a href="https://www.linkedin.com/in/saksham-dhull-85b608155/"><i class="fa fa-linkedin-square fa-fw" aria-hidden="true">&nbsp;</i>LinkedIn</a></li>
+								<li><a href="https://www.facebook.com/dhull442"><i class="fa fa-facebook-square fa-fw" aria-hidden="true">&nbsp;</i>Facebook</a></li>
+								<li><a href="https://www.instagram.com/dhull442/"><i class="fa fa-instagram fa-fw">&nbsp;</i>Instagram</a></li>
 							</ul></center>
 						</section>
 					</div>
@@ -390,13 +344,11 @@ function copyToClipboard(elem) {
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
-			<script>
+			<!-- <script>
 
 			// Select all links with hashes
 			$('a[href*="#"]')
 			  // Remove links that don't actually link to anything
-			  .not('[href="#"]')
-			  .not('[href="#0"]')
 			  .click(function(event) {
 			    // On-page links
 			    if (
@@ -429,7 +381,7 @@ function copyToClipboard(elem) {
 			    }
 			  });
 
-			</script>
+			</script> -->
 			<script>
 			(function($) {
 				var	$window = $(window),
@@ -470,7 +422,7 @@ function copyToClipboard(elem) {
 						});
 			})(jQuery);
 			</script>
-			<script src="assets/js/scroll.js"></script>
+			<!-- <script src="assets/js/scroll.js"></script> -->
 
 	</body>
 </html>

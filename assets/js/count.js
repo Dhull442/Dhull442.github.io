@@ -1,5 +1,4 @@
 var uid='dhull442';var db='1';var delta_time='19800';var new_session='yes';var user_status='regular';var uniqueID='XPV2T38AAAEAAGGdEMQAAAAG';var sessionID='XPV2T38AAAEAAGGdEMQAAAAG';if('regular'=='premium'&&'no'!='yes'){document.getElementById("wtstimer1798973").innerHTML=db+'::'+uid+'::'+delta_time+'::'+new_session+'::'+uniqueID+'::'+sessionID;}
-else{document.getElementById("wtstimer1798973").innerHTML='no_streaming';}
 if('yes'!='yes'){if('en'=='fr'){var host='https://www.web-stat.fr';}
 else{var host='https://www.web-stat.com';}
 var idTag='PublicID=dhull442';if('stats_menu'=='visitor_details'){var click_target='live_visitors.htm';}
