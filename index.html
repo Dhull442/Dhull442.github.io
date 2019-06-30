@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html style="scroll-behavior: smooth">
 	<head>
-		<title>Saksham Dhull | Junior Undergraduate, IIT Delhi</title>
+		<title>Saksham Dhull | Junior Undergraduate</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
+		<meta name="description" content="Portfolio Website for Saksham Dhull, Junior Undergraduate @ CS, IIT Delhi" />
+		<meta name="keywords" content="saksham dhull" />
 		<!-- favicon -->
 		<link rel="icon" href="favicon.ico"/>
 		<!-- style sheet -->
@@ -21,14 +21,14 @@
 
 				<a class="logo" href="#top">dhull442</a>
 				<nav>
-					<a href="#menu"></a>
+					<!-- <a id="menuchange" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</a> -->
 				</nav>
 			</header>
 
 
 
 		<!-- Nav -->
-			<nav id="menu">
+			<nav id="sidemenu" style="display:none">
 				<ul class="links" font-family="monospace">
 					<li><a href="#top" >cd ~/</a></li>
 					<li><a href="Saksham_Dhull_Resume.pdf" target="_blank">open resume.pdf</a></li>
@@ -254,14 +254,15 @@ Hansraj Model School, New delhi</h3>
 					</div>
 				</div>
 			</section>
-			<span id="wts1798973">&nbsp;</span>
-<script>
-var wts=document.createElement('script');
-wts.type='text/javascript';
-wts.async=true;
-wts.src='assets/js/count.js';
-document.getElementById('wts1798973').appendChild(wts);
-</script>
+			<!-- Begin Web-Stat code v 6.3 -->
+			<span id="wts1798973" style="display:none">&nbsp;</span><script>
+			var wts=document.createElement('script');wts.type='text/javascript';
+			wts.async=true;wts.src='https://wts.one/1/1798973/log6_2.js';
+			document.getElementById('wts1798973').appendChild(wts);
+			</script><noscript><a href="https://www.web-stat.com">
+			<img src="https://wts.one/6/1/1798973.gif"
+			alt="Web-Stat web statistics"></a></noscript>
+			<!-- End Web-Stat code v 6.3 -->
 			<!-- CTA -->
 			<section id="cta" class="wrapper">
 				<div class="inner">
@@ -328,7 +329,7 @@ document.getElementById('wts1798973').appendChild(wts);
 							<ul class="alt">
 
 								<li><a href="https://github.com/Dhull442"><i class="fa fa-github fa-fw">&nbsp;</i>Github</a></li>
-								<li><a href="https://www.linkedin.com/in/saksham-dhull-85b608155/"><i class="fa fa-linkedin-square fa-fw" aria-hidden="true">&nbsp;</i>LinkedIn</a></li>
+								<li><a href="https://www.linkedin.com/in/dhull442/"><i class="fa fa-linkedin-square fa-fw" aria-hidden="true">&nbsp;</i>LinkedIn</a></li>
 								<li><a href="https://www.facebook.com/dhull442"><i class="fa fa-facebook-square fa-fw" aria-hidden="true">&nbsp;</i>Facebook</a></li>
 								<li><a href="https://www.instagram.com/dhull442/"><i class="fa fa-instagram fa-fw">&nbsp;</i>Instagram</a></li>
 							</ul></center>
@@ -407,21 +408,36 @@ document.getElementById('wts1798973').appendChild(wts);
 					});
 
 				// Menu.
-					$('#menu')
-						.append('<a href="#menu" class="close"></a>')
-						.appendTo($body)
-						.panel({
-							target: $body,
-							visibleClass: 'is-menu-visible',
-							delay: 500,
-							hideOnClick: true,
-							hideOnSwipe: true,
-							resetScroll: true,
-							resetForms: true,
-							side: 'right'
-						});
+					// $('#menu')
+					// 	.append('<a href="#menu" class="close"></a>')
+					// 	.appendTo($body)
+					// 	.panel({
+					// 		target: $body,
+					// 		visibleClass: 'is-menu-visible',
+					// 		delay: 500,
+					// 		hideOnClick: true,
+					// 		hideOnSwipe: true,
+					// 		resetScroll: true,
+					// 		resetForms: true,
+					// 		side: 'right'
+					// 	});
 			})(jQuery);
 			</script>
+			<!-- <script>
+			var isShowing = false;
+			if(isShowing){
+				// document.getElementById("menuchange").
+			}
+			function openNav() {
+document.getElementById("sidemenu").style.display = "block";
+document.getElementById("menuchange").onclick="closeNav()";
+}
+
+function closeNav() {
+document.getElementById("menu").style.display = "none";
+document.getElementById("menuchange").onclick="openNav()";
+}
+			</script> -->
 			<!-- <script src="assets/js/scroll.js"></script> -->
 
 	</body>
