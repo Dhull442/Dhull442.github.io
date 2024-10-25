@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Saksham Dhull</title>
+    <link>https://dhull442.github.io/</link>
+    <description>Recent content on Saksham Dhull</description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en-us</language>
+    <atom:link href="https://dhull442.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://dhull442.github.io/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dhull442.github.io/aboutme/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Saksham Dhull 👋&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a software engineer with experience in research and development on the cutting edge tech. I started my journey at Samsung Research in South Korea, working on the R&amp;amp;D for the 6G technical stack from the ground up. Later, I joined the Language and Voice Team, where I focused on building a multi-modal speech LLM.&lt;/p&gt;
+&lt;p&gt;Before Samsung, I worked as a software engineer at Spotnana, where I developed a master API that automated code generation from specs—a project that let me dive deep into code automation and API design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://dhull442.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dhull442.github.io/contact/</guid>
+      <description>&lt;p&gt;I’m always up for tackling tricky problems, exploring new horizons, and, hey, even a bit of spicy gossip. Feel free to shoot me an email or find me through any of my links below—let’s connect!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:sakshamdhull442@gmail.com&#34;&gt;email&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/dhull442/&#34;&gt;linkedin&lt;/a&gt;, &lt;a href=&#34;https://calendly.com/dhull442/15min&#34;&gt;calendly&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
