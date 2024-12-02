@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogs on Saksham Dhull</title>
+    <link>https://dhull442.github.io/blogs/</link>
+    <description>Recent content in Blogs on Saksham Dhull</description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Dec 2024 12:28:21 +0530</lastBuildDate>
+    <atom:link href="https://dhull442.github.io/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust Ray Tracer</title>
+      <link>https://dhull442.github.io/blogs/rust-ray-tracer/</link>
+      <pubDate>Mon, 02 Dec 2024 12:28:21 +0530</pubDate>
+      <guid>https://dhull442.github.io/blogs/rust-ray-tracer/</guid>
+      <description>&lt;h1 id=&#34;building-a-ray-tracer-in-rust&#34;&gt;Building a Ray Tracer in Rust&lt;/h1&gt;
+&lt;p&gt;Over the past month, I embarked on an exciting journey to build a ray tracer in Rust, inspired by the &lt;em&gt;&amp;ldquo;Ray Tracing in One Weekend&amp;rdquo;&lt;/em&gt; series. The concept of ray tracing has always intrigued me, and finding this guide was the spark I needed to finally dive in. This project became an immersive exploration into the realms of computer graphics, the Rust programming language, and the art of rendering. If you&amp;rsquo;re curious, you can check out the repository &lt;a href=&#34;https://github.com/Dhull442/rust-ray-tracer&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
