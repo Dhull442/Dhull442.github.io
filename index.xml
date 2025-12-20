@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Saksham Dhull</title>
+    <link>https://dhull442.github.io/</link>
+    <description>Recent content on Saksham Dhull</description>
+    <generator>Hugo -- 0.152.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Dec 2024 12:28:21 +0530</lastBuildDate>
+    <atom:link href="https://dhull442.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rust Ray Tracer</title>
+      <link>https://dhull442.github.io/blogs/rust-ray-tracer/</link>
+      <pubDate>Mon, 02 Dec 2024 12:28:21 +0530</pubDate>
+      <guid>https://dhull442.github.io/blogs/rust-ray-tracer/</guid>
+      <description>&lt;h1 id=&#34;building-a-ray-tracer-in-rust&#34;&gt;Building a Ray Tracer in Rust&lt;/h1&gt;
+&lt;p&gt;Over the past month, I embarked on an exciting journey to build a ray tracer in Rust, inspired by the &lt;em&gt;&amp;ldquo;Ray Tracing in One Weekend&amp;rdquo;&lt;/em&gt; series. The concept of ray tracing has always intrigued me, and finding this guide was the spark I needed to finally dive in. This project became an immersive exploration into the realms of computer graphics, the Rust programming language, and the art of rendering. If you&amp;rsquo;re curious, you can check out the repository &lt;a href=&#34;https://github.com/Dhull442/rust-ray-tracer&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://dhull442.github.io/escort-out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dhull442.github.io/escort-out/</guid>
+      <description>&lt;h1 id=&#34;-you-have-been-escorted-off-the-premises-&#34;&gt;🚨 You Have Been Escorted Off the Premises 🚨&lt;/h1&gt;
+&lt;h2 id=&#34;notice-of-removal-for-policy-violation&#34;&gt;&lt;strong&gt;Notice of Removal for Policy Violation&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Effective immediately, you have been removed from active participation on this site due to a breach of our rules. Your actions have been deemed unacceptable, and this is your official notification of the consequences.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-happened&#34;&gt;&lt;strong&gt;What Happened?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;After a thorough review (or because you tripped the metaphorical alarm), it has been determined that you were engaging in behavior that violates the rules and standards of this platform. This is not a decision we take lightly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://dhull442.github.io/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dhull442.github.io/aboutme/</guid>
+      <description>&lt;p&gt;Hey, I&amp;rsquo;m Saksham&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a software engineer who gets excited about building things that shouldn&amp;rsquo;t be possible yet.&lt;/p&gt;
+&lt;p&gt;These days I&amp;rsquo;m deep in the AI/ML world, building stuff and trying to figure out what actually matters versus what just sounds cool on paper.&lt;/p&gt;
+&lt;p&gt;When I&amp;rsquo;m not staring at code, You&amp;rsquo;ll catch me on a bike racking up kilometers (3,000 so far, thank you my friend, strava), hiking somewhere in the Himalayas, or gaming in my pajamas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://dhull442.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dhull442.github.io/contact/</guid>
+      <description>&lt;p&gt;Always up for a chat about tricky problems, life stories or some quality gossip. Seriously, my inbox could use the excitement. Hit me up through email or any of the links below.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m probably procrastinating on something anyway.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;mailto:sakshamdhull442@gmail.com&#34;&gt;email&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/dhull442/&#34;&gt;linkedin&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
