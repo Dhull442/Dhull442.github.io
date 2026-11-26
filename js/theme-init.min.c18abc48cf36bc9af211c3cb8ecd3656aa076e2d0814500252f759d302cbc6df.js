@@ -1,0 +1,1 @@
+(()=>{try{const e=localStorage.getItem("site-theme");document.documentElement.dataset.theme=e==="night"?"night":"paper"}catch{document.documentElement.dataset.theme="paper"}})()

@@ -1,0 +1,26 @@
+# Agent navigation notes — Saksham Dhull
+
+Start at https://dhull442.github.io/llms.txt for the site overview.
+
+Content:
+- Published writing and talks: https://dhull442.github.io/blogs/
+- About and resume: https://dhull442.github.io/aboutme/
+- Contact: https://dhull442.github.io/contact/
+- Searchable blog content: https://dhull442.github.io/index.json
+- RSS: https://dhull442.github.io/index.xml
+
+Talk resources:
+
+- Keeping Context Small: Systems Lessons for AI Agents
+  Date: 2026-11-21
+  Introduction: https://dhull442.github.io/blogs/keeping-context-small/
+  Final slides: https://dhull442.github.io/blogs/keeping-context-small/slides.pdf
+
+- AI Agents: Engineering Non-Deterministic Software
+  Date: 2026-11-15
+  Introduction: https://dhull442.github.io/blogs/ai-agents-engineering-non-deterministic-software/
+  Final slides: https://dhull442.github.io/blogs/ai-agents-engineering-non-deterministic-software/slides.pdf
+
+The PDF contains the presentation; its introduction page is only a short summary. Keep each talk and its PDF paired. Draft posts are not published or listed in these indexes.
+
+The site is static. Theme preferences and the hidden game run locally in the visitor's browser; they do not change the published articles.

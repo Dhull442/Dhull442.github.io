@@ -1,0 +1,24 @@
+# Saksham Dhull
+
+> Personal website of Saksham Dhull. Writing, technical talks, and presentation slides about software and AI agents.
+
+This index is generated from published Hugo content. Talk pages provide a short introduction and the final presentation PDF. Fetch the linked PDF for the detailed talk, rather than treating the page introduction as a transcript.
+
+## About and contact
+
+- [About Saksham](https://dhull442.github.io/aboutme/): Personal background and resume link.
+- [Contact](https://dhull442.github.io/contact/): Email and LinkedIn.
+
+## Writing and talks
+
+- [Keeping Context Small: Systems Lessons for AI Agents](https://dhull442.github.io/blogs/keeping-context-small/): November 21, 2026. Systems lessons for AI agents: managing context as investigations get longer and capabilities expand.
+- [Keeping Context Small: Systems Lessons for AI Agents — slides](https://dhull442.github.io/blogs/keeping-context-small/slides.pdf): Final presentation PDF for the preceding talk.
+- [AI Agents: Engineering Non-Deterministic Software](https://dhull442.github.io/blogs/ai-agents-engineering-non-deterministic-software/): November 15, 2026. My session at IIIT Bangalore’s Synergy tech fest: building a coding agent, from standalone Bash scripts to a production-grade software engineering agent.
+- [AI Agents: Engineering Non-Deterministic Software — slides](https://dhull442.github.io/blogs/ai-agents-engineering-non-deterministic-software/slides.pdf): Final presentation PDF for the preceding talk.
+- [Rust Ray Tracer](https://dhull442.github.io/blogs/rust-ray-tracer/): December 2, 2024. Building a Ray Tracer in Rust Over the past month, I embarked on an exciting journey to build a ray tracer in Rust, inspired by the “Ray Tracing in One Weekend” series. The concept of ray tracing has always intrigued me, and finding this …
+
+## Other indexes
+
+- [Agent navigation notes](https://dhull442.github.io/agents.txt): How to navigate the published site and use its slide resources.
+- [Search index](https://dhull442.github.io/index.json): Published blog titles, summaries, content, and paths.
+- [RSS](https://dhull442.github.io/index.xml): Published updates.
